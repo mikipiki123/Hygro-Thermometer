@@ -15,7 +15,7 @@ notice that the display can require different resistance for the required resist
 
 **Work with LCD1602A** - this device has a lot of dependencies on voltage input, so i recommend to use the electrical scheme.
 
-**Saving power** - I tried to apply 2 methods to reduce power consumption:
+**Saving power** - I applied 2 methods to reduce power consumption:
 1. optional resistor - affect the screen brightness.
 2. change Pico frequency to 50 (MHZ) - below that the screen didn't response.
 
